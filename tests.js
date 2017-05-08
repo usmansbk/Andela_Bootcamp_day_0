@@ -1,5 +1,5 @@
 'use strict';
-const myApp = require('../GetPrimes.js');
+const myApp = require('./GetPrimes.js');
 
 describe("when getPrimes is used to test for edge cases", function() {
   it("should return undefined for getPrimes(0)", function() {
