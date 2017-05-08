@@ -1,14 +1,15 @@
-const isPrime = (number) => {
-	for (let counter = 2; counter <= Math.trunc(number/2); counter++) {
-		if (number % counter == 0) return false;
-	}
-	return true;
-}
 
 const getPrimes = (n)=> {
 	let array = [];
 	for (let number = 2; number <= n; number++) {
-		if (isPrime(number)) {
+		let isPrime = true;
+		for (let counter = 2; counter <= Math.trunc(Math.sqrt(number)); counter++) {
+			if (number % counter == 0) {
+				isPrime = false;
+				break;
+			}
+		}
+		if (isPrime) {
 			array.push(number);
 		}
 	}
