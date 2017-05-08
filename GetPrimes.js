@@ -1,6 +1,7 @@
 
 const getPrimes = (n)=> {
-	if (isNaN(n) || n <= 0) return undefined
+	if (typeof n != 'number') return undefined;
+	if (isNaN(n) || n <= 0) return undefined;
 	let array = [];
 	for (let number = 2; number <= n; number++) {
 		if (number % 2 == 0 && number > 2) {
