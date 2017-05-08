@@ -19,5 +19,3 @@ const getPrimes = (n)=> {
 	}
 	return array;
 }
-
-console.log(getPrimes(20));
