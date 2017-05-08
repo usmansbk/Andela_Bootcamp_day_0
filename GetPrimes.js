@@ -1,4 +1,4 @@
-
+module.exports = {
 const getPrimes = (n)=> {
 	if (typeof n != 'number') return undefined;
 	if (isNaN(n) || n <= 0) return undefined;
@@ -19,4 +19,5 @@ const getPrimes = (n)=> {
 		}
 	}
 	return array;
+}
 }
