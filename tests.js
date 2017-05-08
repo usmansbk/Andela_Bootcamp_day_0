@@ -7,15 +7,14 @@ describe("when getPrimes is used to test for edge cases", function() {
   })
   it("should return undefined for getPrimes('two')", function() {
     expect(myApp.getPrimes("two")).toBe(undefined);
-  })
+  });
   it("should return undefined for getPrimes('-1')", function() {
     expect(myApp.getPrimes('-1')).toBe(undefined);
-  })
-
+  });
   it("should return undefined for getPrimes('2')", function() {
     expect(myApp.getPrimes('2')).toBe(undefined);
-  })
-})
+  });
+});
 
 
 describe("when getPrimes is used to test for correct return value", function() {
@@ -33,4 +32,5 @@ describe("when getPrimes is used to test for correct return value", function() {
   });
   it("should return [2,3,5,7,11,13,17,19,23 for getPrimes(24)", function() {
     expect(myApp.getPrimes(24)).toBe([2,3,5,7,11,13,17,19,23]);
-  })
+  });
+});
