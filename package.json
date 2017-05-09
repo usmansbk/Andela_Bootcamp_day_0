@@ -1,0 +1,19 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "get_primes function",
+  "main": "get_primes.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmansbk/Andela_Bootcamp_day_0.git"
+  },
+  "author": "Usman Babakolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmansbk/Andela_Bootcamp_day_0/issues"
+  },
+  "homepage": "https://github.com/usmansbk/Andela_Bootcamp_day_0#readme"
+}
