@@ -19,18 +19,18 @@ describe("when getPrimes is used to test for edge cases", function() {
 
 describe("when getPrimes is used to test for correct return value", function() {
   it("should return [2,3,5] for getPrimes(5)", function() {
-    expect(app.getPrimes(5)).toBe([2,3,5]);
+    expect(app.getPrimes(5).toString()).toBe([2,3,5].toString());
   });
   it("should return [2,3,5,7,11] for getPrimes(12)", function() {
-    expect(app.getPrimes(11)).toBe([2,3,5,7,11]);
+    expect(app.getPrimes(11).toString()).toBe([2,3,5,7,11].toString());
   });
   it("should return [2,3,5,7,11,13] for getPrimes(15)", function() {
-    expect(app.getPrimes(15)).toBe([2,3,5,7,11,13]);
+    expect(app.getPrimes(15).toString()).toBe([2,3,5,7,11,13].toString());
   });
   it("should return [2,3,5,7,11,13,17,19] for getPrimes(20)", function() {
-    expect(app.getPrimes(20)).toBe([2,3,5,7,11,13,17,19]);
+    expect(app.getPrimes(20).toString()).toBe([2,3,5,7,11,13,17,19].toString());
   });
   it("should return [2,3,5,7,11,13,17,19,23 for getPrimes(24)", function() {
-    expect(app.getPrimes(24)).toBe([2,3,5,7,11,13,17,19,23]);
+    expect(app.getPrimes(24).toString()).toBe([2,3,5,7,11,13,17,19,23].toString());
   });
 });
